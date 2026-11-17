@@ -10,7 +10,6 @@
 devtools::install_github("boppingshoe/Ms.GSI", build_vignettes = F)
 devtools::install_github("eriqande/rubias")
 
-
 library(Ms.GSI)
 
 #Print out the reporting group summary
@@ -71,12 +70,12 @@ ggplot(chin_sims_sum, aes(x = true_repprop, y = reprop_posterior_mean, colour = 
 
 # We like to see 95% of the simulations within 10% of the true value (the red dashed lines)
 
-#What if we put the lower yukon river in the Coastal Western Alaska Group?
+# What if we put the lower yukon river in the Coastal Western Alaska Group?
 
 base_templin_mod <- base_templin %>%
   mutate(repunit = ifelse(repunit=='Lower Yukon','Coastal West Alaska',repunit))
 
 #Now lets redo those simulations and see what the effect is on the Coastal Western Alaska Group
 
-#<Insert your code here>
+# <Insert your code here>
 

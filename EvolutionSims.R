@@ -17,7 +17,6 @@ simulate_drift(p = 0.5, N = 100, G = 100, replicates = 20)
 
 #What happens as you change the population size?
 
-
 #### Mutation with Drift ####
 #u controls the mutation from p to q
 
